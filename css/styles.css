@@ -1,0 +1,38 @@
+:root {
+    --background: #ffffff;
+    --foreground: #aaaaaa;
+    --accent: #666666;
+    --text-white: white;
+    --text-black: black;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    filter: brightness(1.2);
+    text-decoration: underline;
+}
+
+/* Hero Banner */
+.hero-banner {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: var(--foreground);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px 10px;
+}
+
+/* Remove weird underline below image */
+.social-link:hover {
+    text-decoration: none;
+}
