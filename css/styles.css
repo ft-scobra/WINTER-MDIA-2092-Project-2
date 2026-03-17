@@ -1,7 +1,7 @@
 :root {
     --background: #ffffff;
     --foreground: #aaaaaa;
-    --accent: #666666;
+    --accent: #ff4747;
     --text-white: white;
     --text-black: black;
 }
@@ -55,7 +55,7 @@ a {
 }
 
 a:hover {
-    filter: brightness(1.2);
+    color: color-mix(in srgb, var(--accent) 70%, white 30%);
     text-decoration: underline;
 }
 
@@ -124,7 +124,9 @@ a:hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
+    color: white;
     background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
 }
 
 /* Caption text */
@@ -182,6 +184,10 @@ a:hover {
 }
 
 /* Below the Fold */
+.content-section {
+    /* background-color: var(--foreground); */
+    padding: 1rem;
+}
 
 /* Footer */
 footer {
