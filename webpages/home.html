@@ -11,9 +11,49 @@
 </head>
 
 <body>
-    <main>
-        <div class="hero-banner">
-            <h1 class="brand-name">Dial-Back</h1>
+    <main class="main-content">
+        <!-- Above the fold -->
+        <div class="above-the-fold">
+            <!-- Hero Banner -->
+            <div class="hero-banner">
+                <!-- Image Carousel -->
+                <div class="carousel-container">
+                    <!-- Image 1 -->
+                    <a href="./about.html">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="https://picsum.photos/seed/a/1920/1080" alt="Image Carousel"
+                                class="carousel-image">
+                        </div>
+                    </a>
+                    <!-- Image 2 -->
+                    <a href="./playboi-carti.html">
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="https://picsum.photos/seed/b/1920/1080" alt="Image Carousel"
+                                class="carousel-image">
+                        </div>
+                    </a>
+                    <!-- Image 3 -->
+                    <a href="./tyler-the-creator.html">
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="https://picsum.photos/seed/c/1920/1080" alt="Image Carousel"
+                                class="carousel-image">
+                        </div>
+                    </a>
+                    <!-- Next and Previous Buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <!-- Indicator -->
+                <div class="carousel-indicator">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
@@ -38,5 +78,6 @@
         </div>
     </footer>
 </body>
+<script defer src="../scripts/scripts.js"></script>
 
 </html>
