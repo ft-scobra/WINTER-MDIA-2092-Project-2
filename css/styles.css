@@ -26,7 +26,10 @@ h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-family: "Manufacturing Consent", system-ui;
+    /* font-weight: 900; */
+    font-style: normal;
+    font-size: 5rem;
 }
 
 h2 {
