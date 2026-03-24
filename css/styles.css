@@ -75,6 +75,54 @@ a:hover {
     gap: 20px;
 }
 
+/* Hero Banner */
+.hero-banner-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-banner-bg-img {
+    min-width: 1024px;
+    max-width: 1280px;
+}
+
+.main-heading {
+    margin: 50px;
+    width: 100%;
+    max-width: 1280px;
+
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.hero-banner-content {
+    position: absolute;
+    width: 90%;
+    max-width: 1280px;
+    padding: 50px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    padding: 50px;
+}
+
+.hero-banner-phone-prototype {
+    margin: 10px;
+    min-width: 400px;
+    width: 25%;
+    max-width: 400px;
+}
+
+/* Below the Fold */
 /* Slideshow */
 .slideshow {
     display: flex;
@@ -186,7 +234,6 @@ a:hover {
     }
 }
 
-/* Below the Fold */
 .content-section {
     /* background-color: var(--foreground); */
     padding: 1rem;
