@@ -319,8 +319,13 @@ hr {
 /* Footer */
 footer {
     margin-top: 30px;
-    padding: 20px;
+    padding: 50px;
     background-color: var(--foreground);
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1280px;
 
     display: flex;
     flex-direction: column;
