@@ -1,7 +1,8 @@
 :root {
-    --background: #ffffff;
-    --foreground: #aaaaaa;
-    --accent: #ff4747;
+    --background: #ffffeb;
+    --foreground: #d0ba9b;
+    --accent: #7d5331;
+    --accent-2: #badcea;
     --text-white: white;
     --text-black: black;
 }
