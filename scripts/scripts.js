@@ -45,3 +45,27 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+// Hero Tagline Animation
+const taglines = document.querySelectorAll('.tagline');
+let currentIndex = 0;
+
+function rotateTaglines() {
+    // Find Actibe
+    const current = taglines[currentIndex];
+
+    // Prepare Exit
+    current.classList.remove('active');
+    current.classList.add('exit');
+
+    // Index += 1
+    currentIndex = (currentIndex + 1) % taglines.length;
+
+    // Next Tagline
+    const next = taglines[currentIndex];
+    next.classList.remove('exit');
+    next.classList.add('active');
+}
+
+// Run every 3000ms (3 seconds)
+setInterval(rotateTaglines, 3000);
