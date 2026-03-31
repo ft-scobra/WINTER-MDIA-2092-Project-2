@@ -316,6 +316,56 @@ hr {
     border-radius: 20px;
 }
 
+/* Mision Statement */
+.mission-statement-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin: 0 auto;
+    padding: 2rem;
+
+    width: 100%;
+    max-width: 1280px;
+
+    box-sizing: border-box;
+
+    border-radius: 20px;
+
+    background-color: var(--accent-2);
+
+    text-align: center;
+}
+
+.mission-statement {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    text-align: left;
+}
+
+.mission-statement-text {
+    line-height: 2rem;
+}
+
+.quote-start,
+.quote-end {
+    font-size: 10rem;
+    color: var(--accent);
+}
+
+.quote-start {
+    position: relative;
+    left: 10px;
+    top: -50px;
+}
+
+.quote-end {
+    position: relative;
+    right: 10px;
+    bottom: -50px;
+}
+
 /* Footer */
 footer {
     margin-top: 30px;
