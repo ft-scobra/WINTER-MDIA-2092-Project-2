@@ -156,6 +156,34 @@ hr {
     max-width: 400px;
 }
 
+/* Hero Buttons */
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+.hero-button {
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--text-white);
+    transition: 100ms ease-in-out;
+}
+
+.hero-button.download {
+    background-color: var(--accent);
+    color: var(--text-white);
+}
+
+.hero-button:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 100ms ease-in-out;
+}
+
 /* Below the Fold */
 /* Slideshow */
 .slideshow {
