@@ -297,8 +297,16 @@ hr {
 }
 
 .content-section {
-    /* background-color: var(--foreground); */
-    padding: 1rem;
+    background-color: var(--foreground);
+    max-width: 1280px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem auto;
+    padding: 2rem;
+
+    border-radius: 20px;
 }
 
 /* Footer */
