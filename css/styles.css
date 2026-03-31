@@ -55,7 +55,8 @@ h6 {
 
 p {
     /* TODO: Find a better font for body text. */
-    font-family: "Liberation Sans", "Arial", sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
+    font-size: 1.35rem;
 }
 
 a {
@@ -179,9 +180,8 @@ hr {
 }
 
 .hero-button:hover {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 10px;
-    transition: 100ms ease-in-out;
 }
 
 /* Below the Fold */
